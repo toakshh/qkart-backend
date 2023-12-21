@@ -65,6 +65,10 @@ web_modules/
 # Output of 'npm pack'
 *.tgz
 
+#private data
+.env
+setupRemoteMongo.sh
+
 # Yarn Integrity file
 .yarn-integrity
 
@@ -124,6 +128,4 @@ frontend/node_modules
 frontend/node_modules/
 
 
-.env
-setupRemoteMongo.sh
 
